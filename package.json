@@ -1,0 +1,20 @@
+{
+  "name": "make-build",
+  "version": "1.0.0",
+  "description": "Make Build (Android/IOS)",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "start:dev": "nodemon"
+  },
+  "author": "Muhammad Usman (zahoor.usman.m@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "diawi-nodejs-uploader": "^1.1.1",
+    "dotenv": "^8.2.0",
+    "prompt": "^1.1.0"
+  }
+}
